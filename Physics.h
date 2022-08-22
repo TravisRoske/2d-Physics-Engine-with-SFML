@@ -14,10 +14,7 @@ class Physics
 public:
     MyVelocity grav;
 
-    Physics() :grav(gravity, 90.f)//Gravity constant going down.
-        {
-        }
-
+    Physics() :grav(gravity, 90.f){}//Gravity constant going down
 
     void runGravity(std::vector<PhysicsCircles*> &circles)
     {
